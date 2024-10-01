@@ -47,7 +47,7 @@
     <service
         android:name=".ShakeServices.SensorService"
         android:enabled="true"
-        android:exported="true"
+        android:exported="false"
         android:permission="TODO"
         android:foregroundServiceType="location"
         />
