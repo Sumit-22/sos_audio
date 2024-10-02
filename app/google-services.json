@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "920100284238",
+    "project_id": "sosemergency-98962",
+    "storage_bucket": "sosemergency-98962.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920100284238:android:4cc053572cd1d47713601f",
+        "android_client_info": {
+          "package_name": "com.example.sos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoamiOvzr3QQjyyiFjkRjqEdCsRrusikU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

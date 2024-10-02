@@ -35,7 +35,7 @@ import com.example.sos.dbHelper.DbHelper;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
+    private static final int PERMISSION_REQUEST_CODE = 200;
     private static final int IGNORE_BATTERY_OPTIMIZATION_REQUEST = 1002;
     private static final int PICK_CONTACT = 1;
 
