@@ -154,41 +154,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-//        super.onActivityResult(requestCode, resultCode, data);
-//
-//        // get the contact from the PhoneBook of device
-//        switch (requestCode) {
-//            case (PICK_CONTACT):
-//                if (resultCode == Activity.RESULT_OK) {
-//
-//                    Uri contactData = data.getData();
-//                    Cursor c = managedQuery(contactData, null, null, null, null);
-//                    if (c.moveToFirst()) {
-//
-//                        String id = c.getString(c.getColumnIndexOrThrow(ContactsContract.Contacts._ID));
-//                        String hasPhone = c.getString(c.getColumnIndex(ContactsContract.Contacts.HAS_PHONE_NUMBER));
-//                        String phone = null;
-//                        try {
-//                            if (hasPhone.equalsIgnoreCase("1")) {
-//                                Cursor phones = getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, null, ContactsContract.CommonDataKinds.Phone.CONTACT_ID + " = " + id, null, null);
-//                                phones.moveToFirst();
-//                                phone = phones.getString(phones.getColumnIndex("data1"));
-//                            }
-//                            String name = c.getString(c.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME));
-//                            db.addcontact(new ContactModel(0, name, phone));
-//                            list = db.getAllContacts();
-//                            customAdapter.refresh(list);
-//                        } catch (Exception ex) {
-//                        }
-//                    }
-//                }
-//                break;
-//        }
-//    }
-
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
