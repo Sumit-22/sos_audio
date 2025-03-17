@@ -33,3 +33,14 @@
   </a>
 </p>
 
+
+## 🛠️ Future Enhancements
+- Panic Mode – Instantly lock phone and notify contacts with live camera feed.
+- AI-Based Risk Prediction – Machine learning to analyze user patterns (like based on location) and predict emergencies.
+- Live Location Sharing – Continuous tracking with emergency contacts.
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+🔥 Developed with ❤️ by [Sumit Kumar](https://github.com/Sumit-22)
